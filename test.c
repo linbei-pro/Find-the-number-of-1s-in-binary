@@ -7,7 +7,7 @@ int main()
 {
 	int n = 0, m = 0;
 	int i = 0;
-	scanf_s("%d", &n);
+	scanf("%d", &n);
 
 	int count = 0;
 	for (i = 32; i > 0; i--)//一个整数是4个字节，也就是32个比特位
